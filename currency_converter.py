@@ -1,8 +1,7 @@
 import requests
 api_key="API_KEY"
 def function():
-    fromc=input("enter From currency :").upper()
-    api_key="633a0d1922729eafe469d0a8"
+    fromc=input("enter From currency :").uppeer
     url=f"https://v6.exchangerate-api.com/v6/{api_key}/latest/{fromc}"
     try:
         data=requests.get(url,timeout=5)

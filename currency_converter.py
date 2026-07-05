@@ -7,6 +7,7 @@ def function():
         data=requests.get(url,timeout=5)
     except requests.exceptions.RequestException as f:
         print(f"Connection reset by peer{f}")
+        return
     data1=data.json()
     status_code=data1["result"]
     while True:

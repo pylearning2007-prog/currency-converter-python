@@ -1,5 +1,5 @@
 import requests
-api_key="633a0d1922729eafe469d0a8"
+api_key="API_KEY"
 def function():
     fromc=input("enter From currency :").upper()
     api_key="633a0d1922729eafe469d0a8"

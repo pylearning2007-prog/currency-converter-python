@@ -78,6 +78,6 @@ Enter the amount : 100
 
 ## 👨‍💻 Author
 
-**PY**
+**PY GROUP**
 
 GitHub: https://github.com/pylearning2007-prog
